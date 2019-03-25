@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Turma 7</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="formulario">
+        <div class="grupo-campo">
+            <label for="texto">Texto</label>
+            <input type="text" name="texto">
+        </div>
+        
+        <div class="grupo-campo">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
+        </div>
+        
+        <div class="grupo-campo">
+            <label>Confirme aqui que você é uma mulher cheia de talentos</label>
+            <div class="formulario__campo--opcoes">
+                <input type="checkbox" name="mulher-talentosa">
+                <label for="mulher-talentosa">Confirmo que sou mesmo</label></div>
+                
+            </div>
+            
+            <div class="grupo-campo">
+                <label for="poder">Escolha uma opção</label>
+                <div class="meia-coluna">
+                    <input type="radio" name="poder" value="forca"><span>Super força</span>
+                    <input type="radio" name="poder" value="invisivel"><span>Ser invisível</span>
+                    <input type="radio" name="poder" value="ler-mentes"><span>Ler mentes</span>
+                    <input type="radio" name="poder" value="velocidade"><span>Super velocidade</span>
+                </div>
+                
+            </div>
+            
+            <div class="grupo-campo">
+                <label for="topico">Selecione um tópico</label>
+                <select name="topico">
+                    <option>Deixar meu site mais bonito</option>
+                    <option>Acabar com o patriarcado</option>
+                    <option>Fazer a revolução feminista</option>
+                </select>
+            </div>
+            
+            <div class="grupo-campo">
+                <label for="valor">Escolha um valor</label>
+                <input type="number" name="valor">
+            </div>
+            
+            <div class="grupo-campo">
+                <label for="comentario">Comentário</label>
+                <textarea name="comentario"></textarea> 
+            </div>
+            
+            <div class="grupo-campo__botao">
+                <input class="botao__cinza" type="reset" value="Reset">
+                <input class="botao__roxo" type="submit" value="Submit">
+            </div>
+        </section>
+        
+    </body>
+    </html>

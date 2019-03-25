@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    background-image: url("../img/bg-banner.png");
+    min-height: 70vh;
+    background-size: cover;
+    top: 0;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cabecalho > p {
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}

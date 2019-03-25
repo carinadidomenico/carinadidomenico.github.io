@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Preencha aqui</h1>
+    <section>
+        <form action="sucesso.html" method="get">
+            <div>
+                <label for="nome-da-pessoa">Nome</label>
+                <input type="text" placeholder="Escreva seu nome aqui" name="nome-da-pessoa">
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Escreva seu email aqui" name="email">
+            </div>
+            
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Digite sua senha aqui">
+            </div>
+            <div>
+                <label for="">idade</label>
+                <input type="number" name="idade" placeholder="Digite sua idade">
+            </div>
+            <div>
+                <label for="usuaria-talentosa">Declaro que sou muito talentosa</label>
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+            
+            <div>
+                <label for="">Selecione sua profissão:</label>
+                <input type="radio" value="programadora" name="profissao"><spam>Programadora</spam>
+                <input type="radio" value="designer" name="profissao"><spam>Designer</spam>
+                <input type="radio" value="arquiteta" name="profissao"><spam>Arquiteta</spam>
+            </div>
+
+            <div>
+                <label for="cidade-da-pessoa">Sua cidade:</label>
+                <select name="cidade-da-pessoa">
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Minas Gerais</option>
+                </select>
+            </div>
+            <div>
+                <label for="vida">Conte sua vida</label>
+                <textarea name="vida" cols="30" rows="10" placeholder="Estudei na {reprograma} em 2019">Conte sua vida</textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

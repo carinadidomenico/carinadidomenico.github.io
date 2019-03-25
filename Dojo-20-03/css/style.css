@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.63); 
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
+.menu__logo{
+    width: 9%
+}
+
+.menu__links li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 7px; 
+}
+
+.menu__lupinha{
+    margin-left: -55px; 
+}
+
+.menu__botao{
+    padding: 15px;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__login{
+    margin-right: 15px; 
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.conteudo__frase{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo__video{
+    width: 90%; 
+    float: right;
+}
+
+.conteudo__botao{
+    padding: 15px;
+    background-color: #ea4862;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 4%;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+}
+
+.conteudo__botoes {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteudo__centro{
+    margin: 0 auto; 
+    width: 40%;  
+}
+
+.universidades{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.universidades h6{
+    margin-bottom: 0;
+}
+
+.universidades__texto {
+    width: 20%;
+}
+
+.universidades__texto > p {
+    margin-top: 0; 
+}
+
+.universidades__texto > h4 {
+    border-bottom: 2px solid rgb(192, 31, 79);
+    font-size: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    bottom:0;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(192, 31, 79);
+}
+

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.grupo-campo {
+    margin: 0 auto;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .grupo-campo {
+    width: 54%;
+    text-align: right
+} */
+.grupo-campo--poder {
+    width: 40%;
+}
+
+.meia-coluna {
+    width: 54%;
+}
+
+.grupo-campo > input, .grupo-campo > textarea, .grupo-campo > select {
+    width: 54%;
+}
+
+.botao__cinza {
+    background-color: rgba(128, 128, 128, 0.52);
+    border-radius: 5%;
+    border: none;
+    padding: 3px;
+    height: 40px;
+    width: 100px;
+}
+
+.botao__roxo {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    height: 40px;
+    width: 100px;
+}

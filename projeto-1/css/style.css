@@ -1,0 +1,78 @@
+body {
+    background-color: rgba(179,130,186,36%);
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho__titulo{
+    color: #5d1277;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 900px;
+}
+
+.container__conteudo, .container__ilustracao {
+    display: inline-block;
+    width: 400px;
+    margin: 0 2%;
+    vertical-align: middle;
+}
+
+.ilustracao__gif{
+    width: 400px;
+    opacity: 1;
+}
+
+.conteudo__btn--roxo{
+    background-color: #5d1277;
+    color: aliceblue;
+    font-family: "Monserrat";
+    text-transform: uppercase;
+    border: 2px solid #5d1277;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.conteudo__btn--transparente {
+    background-color: transparent;
+    font-family: "Monserrat";
+    text-transform: uppercase;
+    border: 2px solid #5d1277;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo__btn--transparente:hover {
+    background-color: #5d1277;
+    font-family: "Monserrat";
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.conteudo__btn--roxo:hover {
+    background-color: transparent;
+    color: black;
+    font-family: "Monserrat";
+    border: 2px solid #5d1277;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.ilustracao__gif:hover {
+    opacity: 0.5;
+}
+
