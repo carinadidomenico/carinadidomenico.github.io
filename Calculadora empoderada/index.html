@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/imc.js"></script>
+    <title>Calculador de IMC Empoderado</title>
+</head>
+<body>
+    <section class="content">
+        <div id="tabela" class="col">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="linha1">
+                        <td>Abaixo de 18</td>
+                        <td>Uma deusa!</td>
+                    </tr>
+                    <tr class="linha2">
+                        <td>Entre 18 e 24</td>
+                        <td>Uma louca!</td>
+                    </tr>
+                    <tr class="linha3">
+                        <td>Entre 25 e 29</td>
+                        <td>Uma feiticeira!</td>
+                    </tr>
+                    <tr class="linha4">
+                        <td>Entre 30 e 39</td>
+                        <td>Ela é demais!</td>
+                    </tr>
+                    <tr class="linha5">
+                        <td>Acima de 40</td>
+                        <td>Meu deus, ela é demais!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="calculo" class="col">
+            <label for="peso">Peso (em kg):</label>
+            <input type="text" name="peso" id="peso">
+            <label for="altura">Altura</label>
+            <input type="text" name="altura" id="altura">
+            <button onclick="calculoIMC()">Calcular</button>
+        </div>
+        <div class="col">
+            <p>Seu IMC é:</p>
+            <p id="resposta"></p>
+            <div id="lugarGif"></div>
+        </div>
+    </section>
+</body>
+</html>

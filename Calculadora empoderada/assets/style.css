@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 10px;
+    width: 100%;
+    border: 1px dotted #ccc;
+    border-radius: 5px; 
+}
+
+label, input, p {
+    margin: 8px 0;
+}
+
+th {
+    background-color: #ccc;
+}
+
+td, th{
+    padding: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    background-color: #fd0303;
+    width: 100%;
+    color: rgb(231, 230, 230);
+}
+
+.linha1 {
+    padding: 10px;
+    color: rgb(68, 67, 67);
+    background-color: #ffcdcd;
+}
+
+.linha2 {
+    padding: 10px;
+    color: rgb(94, 94, 94);
+    background-color: #ff9c9c;
+}
+
+.linha3 {
+    padding: 10px;
+    color: rgb(214, 213, 213);
+    background-color: #ff6464;
+}
+
+.linha4 {
+    padding: 10px;
+    color: rgb(197, 194, 194);
+    background-color: #ff3c3c;
+}
+
+.linha5 {
+    padding: 10px;
+    color: #ccc;
+    background-color: #fd0303;
+}
+
+img {
+    width: 80%;
+}
+
+@media (max-width: 768px){
+    .content {
+        display: block;
+    }
+
+    .tabela{
+        width: 100%;
+    }
+    .col {
+        width: 80%;
+        font-size: 20px;
+    }
+    input {
+        font-size: 20px;
+    }
+}
