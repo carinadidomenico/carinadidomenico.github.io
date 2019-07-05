@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    background-image: url(harry-potter-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 10%;
+    margin-top: 80vh;
+}
